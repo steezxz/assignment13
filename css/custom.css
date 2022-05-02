@@ -1,0 +1,47 @@
+*{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.col{
+    margin: auto;
+    width: auto;
+    padding: 0;
+}
+
+footer{
+    font-size: 14px;
+    text-align: bottom;
+    position: relative;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    margin-top: 2%;
+}
+
+
+@media only screen and (max-width: 991px){
+    .row{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin: auto;
+        margin-top: 2%;
+        position: relative;
+    }
+
+    h1{
+        font-size: 34px;
+    }
+
+}
